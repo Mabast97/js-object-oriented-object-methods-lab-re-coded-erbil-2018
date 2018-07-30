@@ -6,7 +6,8 @@ function BoardMember(name, homeState, training){
   this.approve = function(){ return ("You can do that!") };
   this.doCharity = function(){ return ("I like to help people") };
   this.releasePressStatement = function(){return ("You will see great things from Scuber")};
-  
+    this.sayHi = function(){ return ("I like to help people") };
+
 }
 
 let polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law");
