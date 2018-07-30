@@ -3,6 +3,10 @@ function BoardMember(name, homeState, training){
   this.homeState = homeState;
   this.training = training;
   this.veto = function(){ return ("No, I must disagree")};
+  this.approve = function(){ return ("You can do that!") };
+  this.doCharity = funnction(){ return ("I like to help people") };
+  this.releasePressStatement = funnction(){return ("You will see great things from Scuber")};
+  
 }
 
 let polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law");
